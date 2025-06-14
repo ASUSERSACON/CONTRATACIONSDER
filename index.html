@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASUSERSACON | Asociación de Usuarios de Salud</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-700">ASUSERSACON</h1>
+      <nav class="space-x-4">
+        <a href="#" class="text-gray-600 hover:text-green-700">Inicio</a>
+        <a href="#quienes" class="text-gray-600 hover:text-green-700">¿Quiénes Somos?</a>
+        <a href="#servicios" class="text-gray-600 hover:text-green-700">Servicios</a>
+        <a href="#noticias" class="text-gray-600 hover:text-green-700">Noticias</a>
+        <a href="#contacto" class="text-gray-600 hover:text-green-700">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-green-100 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-4">Tu voz cuenta. Tu salud importa.</h2>
+    <p class="text-lg mb-6">Trabajamos por la defensa de tus derechos en salud y una atención digna.</p>
+    <a href="#afiliacion" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-600">Cómo afiliarte</a>
+  </section>
+
+  <!-- ¿Quiénes Somos? -->
+  <section id="quienes" class="py-12 px-4 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4">¿Quiénes Somos?</h3>
+    <p class="mb-4">Somos una organización sin ánimo de lucro que promueve la participación activa, la vigilancia ciudadana y la defensa de los derechos de los usuarios del Sanatorio de Contratación E.S.E.</p>
+    <p>Fundada bajo la legislación colombiana, actuamos como puente entre los usuarios y la institución, proponiendo mejoras y asegurando una atención con calidad y trato humanizado.</p>
+  </section>
+
+  <!-- Misión, Visión y Valores -->
+  <section class="bg-white py-12 px-4 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-6">Misión, Visión y Valores</h3>
+    <div class="space-y-6">
+      <div>
+        <h4 class="text-xl font-semibold text-green-700 mb-2">Misión</h4>
+        <p>Promover la defensa, representación y participación activa de los usuarios en la mejora continua de los servicios de salud del Sanatorio de Contratación E.S.E., asegurando la calidad, humanización y oportunidad en la atención.</p>
+      </div>
+      <div>
+        <h4 class="text-xl font-semibold text-green-700 mb-2">Visión</h4>
+        <p>Ser una organización modelo de participación social en salud, reconocida por su compromiso con los usuarios y su capacidad para incidir positivamente en la transformación del sistema de atención en salud.</p>
+      </div>
+      <div>
+        <h4 class="text-xl font-semibold text-green-700 mb-2">Valores</h4>
+        <ul class="list-disc ml-6 space-y-1">
+          <li>Equidad</li>
+          <li>Participación democrática</li>
+          <li>Compromiso social</li>
+          <li>Transparencia</li>
+          <li>Humanización del servicio</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="bg-white py-12 px-4 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4">Servicios al Usuario</h3>
+    <ul class="list-disc ml-6 space-y-2">
+      <li>Asesoría para afiliados y nuevos usuarios.</li>
+      <li>Canalización de quejas y sugerencias (PQRS).</li>
+      <li>Charlas educativas y talleres de formación.</li>
+      <li>Participación en comités de ética y vigilancia ciudadana.</li>
+    </ul>
+  </section>
+
+  <!-- Noticias -->
+  <section id="noticias" class="py-12 px-4 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-4">Noticias y Comunicados</h3>
+    <ul class="space-y-2">
+      <li>🗓️ Reunión informativa: Reforma del sistema de turnos – 20 de junio.</li>
+      <li>📣 Campaña "Dignidad en la atención": participa con tu testimonio.</li>
+    </ul>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-green-50 py-12 px-4 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold mb-6">Contáctanos</h3>
+    <form class="space-y-4" action="mailto:sanatorio.usuarios@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required class="w-full p-3 border rounded" />
+      <input type="email" name="email" placeholder="Tu correo" required class="w-full p-3 border rounded" />
+      <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required class="w-full p-3 border rounded"></textarea>
+      <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-600">Enviar</button>
+    </form>
+    <div class="mt-8">
+      <p class="mb-2">📧 <strong>Correo:</strong> sanatorio.usuarios@gmail.com</p>
+      <p class="mb-2">📍 <strong>Ubicación:</strong> Contratación, Santander, Colombia</p>
+      <p>📱 <strong>Teléfono:</strong> (por definir)</p>
+    </div>
+    <div class="mt-6">
+      <a href="https://www.facebook.com" target="_blank" class="inline-flex items-center text-blue-700 hover:underline">
+        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.63 9.86v-6.99h-2.8v-2.87h2.8V9.41c0-2.77 1.64-4.3 4.15-4.3 1.2 0 2.46.22 2.46.22v2.7h-1.39c-1.37 0-1.8.85-1.8 1.72v2.06h3.06l-.49 2.87h-2.57v6.99A10 10 0 0022 12z"/></svg>
+        Visítanos en Facebook
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4 mt-10">
+    <p>&copy; 2024 ASUSERSACON. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
